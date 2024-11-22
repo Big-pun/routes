@@ -1,5 +1,7 @@
 <template>
-  <h1>Bienvenue {{ $route.query.user }}</h1>
+  
+  <h1>ID du produit : {{ $route.params.id }}</h1>
+  
 </template>
 
 <script>
